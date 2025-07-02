@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Catálogo de estaciones</title>
   </head>
-  <body>
-    <h1>Catálogo</h1>
+  <br>
+    <h1 id="listaOrdenada">Catálogo</h1>
     <!-- Lista ordenada -->
     <ol>
       <li><a href="#Primavera">Primavera</a></li>
@@ -14,28 +14,35 @@
       <li><a href="#Otoño">Otoño</a></li>
       <li><a href="#Invierno">Invierno</a></li>
     </ol>
-    <!-- Lista desordenada-->
+    <!-- Lista desordenada -->
     <ul>
       <li>Primavera</li>
       <li>Verano</li>
       <li>Otoño</li>
       <li>Invierno</li>
     </ul>
-    <img id="Primavera"
-      src="https://imgs.search.brave.com/dHJAKklJ0cXeuj4yU0eFujsHr9moLF4E9NzcHYIcX4A/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tYXJr/ZXRwbGFjZS5jYW52/YS5jb20vRUFGY0xs/QTRBdlUvMS8wLzE2/MDB3L2NhbnZhLWlu/c3RhZ3JhbS1wb3N0/LWJpZW52ZW5pZGEt/cHJpbWF2ZXJhLWZs/b3JhbC12ZXJkZS00/V0hNNGVrU1lZdy5q/cGc"
-      alt="Primavera"
-    />
-    <img id="Verano"
-      src="https://imgs.search.brave.com/vqDWiOm_OQXJmJ7Sk9GWOvtW1SlKQyl9gj2pBrXDb1Q/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM5/NzI0MTY2NS9lcy92/ZWN0b3IvZmVsaWNl/cy12YWNhY2lvbmVz/LWRlLXZlcmFuby1j/b24tYWNjZXNvcmlv/cy1kZS12ZXJhbm8t/ZW4tbGEtcGxheWEu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PU1IaUlJMnRoOWtD/Znlhb2JmbGZwMDM4/amU0U2xkOUR6Q1Y1/ZFpSNFpQck09"
-      alt="Verano"
-    />
-    <img id="Otoño"
-      src="https://imgs.search.brave.com/-RPmsCO_00p8xy1SUmamXIfx7GO_aesEgXv-eGuJnpo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tYXJr/ZXRwbGFjZS5jYW52/YS5jb20vRUFGR1E1/YkZUNTgvMS8wLzE2/MDB3L2NhbnZhLXBv/c3QtcGFyYS1pbnN0/YWdyYW0taG9qYXMt/b3RvJUMzJUIxby1t/YXJyb24tTWtDMHA2/ZHdkUGsuanBn"
-      alt="Otoño"
-    />
-    <img id="Invierno"
+
+    
+    <a id="Otoño" href="#listaOrdenada">
+      <img id="Otoño"
+        src="https://imgs.search.brave.com/-RPmsCO_00p8xy1SUmamXIfx7GO_aesEgXv-eGuJnpo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tYXJr/ZXRwbGFjZS5jYW52/YS5jb20vRUFGR1E1/YkZUNTgvMS8wLzE2/MDB3L2NhbnZhLXBv/c3QtcGFyYS1pbnN0/YWdyYW0taG9qYXMt/b3RvJUMzJUIxby1t/YXJyb24tTWtDMHA2/ZHdkUGsuanBn"
+        alt="Otoño"
+      />
+    </a>
+
+    <a id="Invierno" href="#listaOrdenada">
+      <img id="Invierno"
       src="https://imgs.search.brave.com/Lfigc5EOgZidK1IkAXveG1cyioEjLd3deV6Z-8x2kgw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mb3Rv/Z3JhZmlhcy5sYXNl/eHRhLmNvbS9jbGlw/cGluZy9jbXNpbWFn/ZXMwMi8yMDIzLzAy/LzI4LzY2RDBDODA3/LUZGNkMtNDczRS04/OEY3LTdFRDk1NkVG/NjgxNC9mcmlvLWVz/dG9zLWRpYXMtZmVi/cmVyby1yZWN1ZXJk/YS1pbnZpZXJub3Mt/YW50ZXNfNzAuanBn/P2Nyb3A9NjAwMCwz/Mzc1LHgwLHkzMTcm/d2lkdGg9NDgwJmhl/aWdodD0yNzAmb3B0/aW1pemU9aGlnaCZm/b3JtYXQ9d2VicGx5"
       alt="Invierno"
-    />
+      />
+    </a>
+
+    <a id="Primavera" href="#listaOrdenada">
+      <img src="https://imgs.search.brave.com/dHJAKklJ0cXeuj4yU0eFujsHr9moLF4E9NzcHYIcX4A/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tYXJr/ZXRwbGFjZS5jYW52/YS5jb20vRUFGY0xs/QTRBdlUvMS8wLzE2/MDB3L2NhbnZhLWlu/c3RhZ3JhbS1wb3N0/LWJpZW52ZW5pZGEt/cHJpbWF2ZXJhLWZs/b3JhbC12ZXJkZS00/V0hNNGVrU1lZdy5q/cGc" alt="Primavera">
+    </a>
+
+    <a id="Verano" href="">
+      <img src="https://imgs.search.brave.com/vqDWiOm_OQXJmJ7Sk9GWOvtW1SlKQyl9gj2pBrXDb1Q/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM5/NzI0MTY2NS9lcy92/ZWN0b3IvZmVsaWNl/cy12YWNhY2lvbmVz/LWRlLXZlcmFuby1j/b24tYWNjZXNvcmlv/cy1kZS12ZXJhbm8t/ZW4tbGEtcGxheWEu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PU1IaUlJMnRoOWtD/Znlhb2JmbGZwMDM4/amU0U2xkOUR6Q1Y1/ZFpSNFpQck09" alt="Verano">      
+    </a>
   </body>
 </html>
